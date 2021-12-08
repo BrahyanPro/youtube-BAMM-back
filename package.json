@@ -1,0 +1,21 @@
+{
+    "name": "youtube-download-backend",
+    "version": "0.0.0",
+    "description": "Backend de app para descargar video de youtube, instagram, facebook, etc",
+    "main": "index.js",
+    "author": "BrahyanPro",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "content-disposition": "^0.5.3",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "socket.io": "^4.4.0",
+        "youtube-api-v3-search": "^1.2.1",
+        "ytdl-core": "^4.9.1"
+    }
+}
